@@ -8,7 +8,7 @@ from openpyxl.styles import Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
 # Replace 'your-api-key-here' with your actual OpenAI API key
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='API Key Here')
 
 def process_image(image_path):
     with Image.open(image_path) as img:
